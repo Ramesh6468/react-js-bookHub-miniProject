@@ -143,7 +143,7 @@ class BookShelves extends Component {
         alt="failure view"
         className="failureImage"
       />
-      <p className="errorFailure">Something went wrong.Please try again</p>
+      <p className="errorFailure">Something went wrong. Please try again</p>
       <button className="button2" type="button" onClick={this.onClickTryAgain}>
         Try Again
       </button>
@@ -172,27 +172,11 @@ class BookShelves extends Component {
   }
 
   render() {
-    const {activeShelf, searchInput} = this.state
+    const {activeShelf, searchInput, activeLabel} = this.state
     return (
       <>
         <Header />
         <div className="bookShelvesContainer">
-          <div className="searchIconCard1">
-            <input
-              type="search"
-              placeholder="search"
-              onChange={this.getSearchInput}
-              value={searchInput}
-            />
-            <button
-              className="searchButton"
-              type="button"
-              onClick={this.getSearchButton}
-              testid="searchButton"
-            >
-              <BsSearch className="searchIcon" />
-            </button>
-          </div>
           <div className="shelfContainer">
             <h1 className="shelfTitle">BookShelves</h1>
             <ul className="bookShelvesList">
@@ -225,17 +209,20 @@ class BookShelves extends Component {
 
           <div className="rightContainer">
             <div className="searchContainer">
-              <h1 className="activeShelf">{activeShelf} Books</h1>
+              <h1 className="activeShelf">{activeLabel} Books</h1>
               <div className="searchIconCard">
                 <input
                   type="search"
                   placeholder="search"
                   onChange={this.getSearchInput}
+                  value={searchInput}
+                  className="searchBar"
                 />
                 <button
                   className="searchButton"
                   type="button"
                   onClick={this.getSearchButton}
+                  testid="searchButton"
                 >
                   <BsSearch className="searchIcon" />
                 </button>

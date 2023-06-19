@@ -22,6 +22,7 @@
   margin-top: 10px;
   margin: auto;
   padding-left: 0;
+  background-color: #ffffff;
 }
 .cardContainer {
   display: flex;
@@ -118,39 +119,51 @@
   align-items: center;
 }
 .errorFailure {
-  color: #475569;    
+  color: #475569;
 }
 .slickItem {
-    margin: 0 -15px;
-    padding-left: 0;
-    padding-top: 0;
+  margin: 0 -15px;
+  padding-left: 0;
+  padding-top: 0;
 }
 
-@media screen and (max-width : 768px){
-    .logo-image {
-    height: 100px;      
-    width: 100px;  
-    }
-    .name {
-font-size: 15px;  
-margin-right: 100px;    
-    }
-    .authorName{
-        font-weight: 10px;
-        margin-left: 0px;
-    }
-    .heading {
-margin-top: 50px;     
-    }
-    .heading2 {
-font-size: 15px;       
-    }
-    .button2 {
-        margin-right: 50px; 
-        padding: 10px;   
-    }
-    .successViewContainer {
-        margin-left: 0;
-        margin-right: 0;
-    }
+@media screen and (max-width: 768px) {
+  .logo-image {
+    height: 100px;
+    width: 100px;
+  }
+  .name {
+    font-size: 15px;
+    margin-right: 100px;
+  }
+  .authorName {
+    font-weight: 10px;
+    margin-left: 0px;
+  }
+  .heading {
+    margin-top: 50px;
+  }
+  .heading2 {
+    font-size: 15px;
+  }
+  .button2 {
+    margin-right: 50px;
+    padding: 10px;
+  }
+  .successViewContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.slickItem {
+  list-style-type: none;
+}
+.imageContainer {
+  background-color: #ffffff;
+}
+.button4 {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 10px;
 }

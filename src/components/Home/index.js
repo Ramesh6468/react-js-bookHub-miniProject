@@ -92,26 +92,31 @@ class Home extends Component {
     const {booksData} = this.state
 
     return (
-      <ul className="successViewContainer">
-        <Slider {...settings}>
-          {booksData.map(eachLogo => {
-            const {id, authorName, coverPic, title} = eachLogo
-            return (
-              <Link to={`/books/${id}`}>
-                <li className="slickItem" key={id}>
-                  <img
-                    className="logo-image"
-                    src={coverPic}
-                    alt="company logo"
-                  />
-                  <h1 className="name">{title}</h1>
-                  <p className="authorName">{authorName}</p>
-                </li>
-              </Link>
-            )
-          })}
-        </Slider>
-      </ul>
+      <Slider {...settings}>
+        {booksData.map(eachBook => {
+          const {id, title, coverPic, authorName} = eachBook
+          const onClickedTopRatedBook = () => {
+            const {history} = this.props
+            history.push(`/books/${id}`)
+          }
+
+          return (
+            <div className="successViewContainer" key={id}>
+              <button
+                onClick={onClickedTopRatedBook}
+                className="button4"
+                type="button"
+              >
+                <div className="imageContainer">
+                  <img className="logo-image" src={coverPic} alt={title} />
+                </div>
+                <h1 className="name">{title}</h1>
+                <p className="authorName">{authorName}</p>
+              </button>
+            </div>
+          )
+        })}
+      </Slider>
     )
   }
 

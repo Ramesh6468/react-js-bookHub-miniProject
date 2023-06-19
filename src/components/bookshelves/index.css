@@ -73,9 +73,9 @@
 
   color: #0284c7;
 }
-.searchIconCard1 {
+/*.searchIconCard1 {
   display: none;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .bookShelvesContainer {
@@ -92,13 +92,10 @@
     align-items: flex-start;
   }
   .searchIconCard {
-    display: none;
+      display: flex;
   }
-  .searchIconCard1 {
-    display: block;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+  .searchBar {
+      width: 100px;
   }
   .shelfTitle {
     font-family: 'Inter';
@@ -130,6 +127,9 @@
   }
   .bookShelvesContainer {
     width: 100%;
+  }
+  .activeShelf {
+   font-size: 20px;     
   }
 }
 .booksShelfListCard {
