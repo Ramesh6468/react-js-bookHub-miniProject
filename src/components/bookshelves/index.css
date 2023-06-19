@@ -1,0 +1,137 @@
+.bookShelvesContainer {
+  background-color: #e5e5e5;
+  height: 100%;
+}
+.shelfContainer {
+  background-color: #ffffff;
+  height: 100%;
+  width: 300px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  height: 100vh;
+}
+.bookShelvesList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.shelfItem {
+  margin-top: 10px;
+}
+.shelfButton {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.bookShelvesContainer {
+  display: flex;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  width: 70vw;
+}
+.booksShelfListCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.failureContainer2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.activeLabel {
+  left: 12.5%;
+  right: 79.69%;
+  top: 9.02%;
+  bottom: 88.28%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #0284c7;
+}
+.searchIconCard1 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bookShelvesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+  }
+  .shelfContainer {
+    height: 100%;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .searchIconCard {
+    display: none;
+  }
+  .searchIconCard1 {
+    display: block;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .shelfTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334155;
+    margin-left: 0;
+  }
+  .bookShelvesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .shelfItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  .shelfButton {
+    border: 2px solid #0284c7;
+    border-radius: 10px;
+    color: #0284c7;
+  }
+  .activeLabel {
+    color: #ffffff;
+    background-color: #0284c7;
+  }
+  .bookShelvesContainer {
+    width: 100%;
+  }
+}
+.booksShelfListCard {
+    list-style-type: none;
+}

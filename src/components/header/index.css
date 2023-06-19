@@ -1,0 +1,130 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+}
+.headerLogo {
+  margin-left: 50px;
+}
+.navItemContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.item {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #64748b;
+}
+.logoutButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  width: 73px;
+  height: 32px;
+  left: 1217px;
+  top: 29px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.headerContainer2 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    display: none;
+  }
+  .headerContainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    height: 56px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #ffffff;
+  }
+  .headerLogo2 {
+    height: 50px;
+    margin-left: 10px;
+  }
+  .iconButton {
+    margin-right: 10px;
+  }
+  .itemContainer {
+    display: flex;
+  }
+  .iconButton {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 15%;
+    bottom: 15%;
+    width: 50px;
+    margin-left: 300px;
+  }
+
+  .itemContainer {
+    margin-top: 85px;
+    width: 100vw;
+    position: absolute;
+    background-color: #E5E5E5;
+  }
+  .home {
+    font-size: 18px;
+    color: #64748b;
+    margin-left: 10px;
+  }
+  .bookshelves {
+    font-size: 18px;
+    color: #64748b;
+    margin-left: 20px;
+  }
+
+  .logoutButton2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 73px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background: #0284c7;
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+  }
+  .closeIconButton {
+    background: #334155;
+    color: #ffffff;
+    border-radius: 40%;
+  }
+  .active {
+    color: #0284c7;
+  }
+}
+.active {
+  color: #0284c7;
+}

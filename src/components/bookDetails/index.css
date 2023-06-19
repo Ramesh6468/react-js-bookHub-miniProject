@@ -1,0 +1,196 @@
+.bookDetailsContainer {
+  background-color: #e5e5e5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bookDetailsCard {
+  background-color: #ffffff;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+}
+.topCardSection {
+  display: flex;
+  margin-top: 20px;
+}
+.coverPic {
+  width: 235px;
+  height: 274px;
+  left: 427px;
+  top: 217px;
+
+  background: #ffffff;
+  border-radius: 14.1309px;
+}
+.titleCard2 {
+  margin-left: 20px;
+}
+.title2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #334155;
+}
+.name2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+.avgRating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+.ratingCard2 {
+  display: flex;
+  align-items: center;
+}
+.rating2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+.statusCard {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+.status2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0284c7;
+}
+.line {
+  width: 1012px;
+  height: 0px;
+  left: 214px;
+  top: 523px;
+
+  border: 1px solid #94a3b8;
+}
+.title3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #334155;
+}
+.para2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #475569;
+}
+
+@media screen and (max-width: 768px) {
+  .topCardSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #334155;
+  }
+  .name2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475569;
+  }
+  .avgRating {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475569;
+  }
+  .rating2 {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #334155;
+  }
+  .statusCard {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475569;
+  }
+  .status2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0284c7;
+  }
+  .title3 {
+      font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #334155;
+
+  }
+  .para3 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #475569;
+      
+  }
+  .bookDetailsCard {
+width: 100vw;      
+  }
+  .topCardSection {
+      margin-top: 550px;
+  }
+}

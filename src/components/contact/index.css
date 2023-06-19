@@ -1,0 +1,27 @@
+.Icon {
+font-size: 25px;
+margin-left: 20px;
+}
+.contactUsSection {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.contact {
+left: 47.15%;
+right: 47.29%;
+top: 91.41%;
+bottom: 6.25%;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #3D3C3C;
+
+}

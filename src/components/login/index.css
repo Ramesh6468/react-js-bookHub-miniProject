@@ -1,0 +1,96 @@
+.bgContainer {
+  display: flex;
+  width: 100vw;
+  background-color: #f8fafc;
+}
+.loginContainer {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logoCard {
+  background: #ffffff;
+  padding: 30px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #5a7184;
+}
+.input {
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+}
+.button {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: #0284c7;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginImage {
+  width: 50vw;
+height: 100vh;  
+}
+.error {
+width: 205px;
+height: 18px;
+left: 24px;
+top: 528px;
+
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+
+color: #EF4444;
+}
+
+@media screen and (max-width: 768px) {
+  .loginImage {
+    width: 216px;
+    height: 216px;
+    left: 72px;
+    top: 32px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .bgContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ffffff;
+  }
+}
